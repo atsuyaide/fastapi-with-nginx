@@ -1,4 +1,4 @@
-# FastAPI サーバーを Nginx で経由で接続する
+# FastAPI サーバーに Nginx 経由で接続する
 
 ## 役割
 
