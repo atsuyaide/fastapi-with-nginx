@@ -1,6 +1,6 @@
 services:
-  webapp:
-    container_name: webapp
+  user-service:
+    container_name: user-service
     extends:
       file: ./webapp/compose.yaml
       service: webapp
