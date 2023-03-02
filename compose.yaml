@@ -1,0 +1,12 @@
+services:
+  webapp:
+    container_name: webapp
+    extends:
+      file: ./webapp/compose.yaml
+      service: webapp
+
+  nginx:
+    container_name: nginx
+    extends:
+      file: ./nginx/compose.yaml
+      service: nginx

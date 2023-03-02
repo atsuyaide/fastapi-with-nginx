@@ -1,0 +1,7 @@
+services:
+  nginx:
+    image: nginx:1.23
+    volumes:
+      - ./config:/etc/nginx/conf.d/
+    ports:
+      - 8080:80
