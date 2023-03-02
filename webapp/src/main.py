@@ -14,6 +14,8 @@ ENDPOINT_PREFIX = os.environ["ENDPOINT_PREFIX"]
 logger.info(ENDPOINT_PREFIX)
 
 
+# オフライン環境でも動作するようにdocs, redocのurlは自身で定義する
+# 参考: https://fastapi.tiangolo.com/advanced/extending-openapi/#self-hosting-javascript-and-css-for-docs
 app = FastAPI(
     docs_url=None,
     redoc_url=None,

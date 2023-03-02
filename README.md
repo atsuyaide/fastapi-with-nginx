@@ -21,7 +21,7 @@
 環境変数を設定
 
 ```shell
-export $(cat ./webapp/env)
+export $(cat ./webapp/.env)
 ```
 
 Nginx と FastAPI サーバを起動
